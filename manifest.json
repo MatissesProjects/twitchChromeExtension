@@ -4,7 +4,7 @@
     "description": "Just like in terminal, this will map the up arrow to the last text submitted",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
-      "scripts": ["background.js"],
+      "scripts": ["js/background.js"],
       "persistent": false
     },
     "page_action": {
@@ -21,6 +21,14 @@
         "32": "images/get_started32.png",
         "48": "images/get_started48.png",
         "128": "images/get_started128.png"
+    },
+    "commands": {
+        "toggle-feature-foo": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+A"
+            },
+            "description": "Toggle feature foo"
+        }
     },
     "options_page": "options.html",
     "manifest_version": 2
