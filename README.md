@@ -2,14 +2,11 @@
 Just like in terminal, this will map the up arrow to the last text submitted
 
 # Goals
-[x] Get the up arrow + ctrl to be captured as a hotkey for toggling the event.
-
-[ ] Find a way to allow logging of last text written
+- [x] Get the up arrow + ctrl to be captured as a hotkey for toggling the event.
+- [ ] Find a way to allow logging of last text written
   The goal with this is to allow some common phrases to be resaid without needing to retype, or scroll up and find the text and copy-paste.
-
-[ ] Learn about interaction with multiple instances of a single page
-
-[ ] Learn more about how chrome extensions can extend interactions on specific sites.
+- [ ] Learn about interaction with multiple instances of a single page
+- [ ] Learn more about how chrome extensions can extend interactions on specific sites.
 
 # Tasks
 Get a basic version, which will be all pages of the app go into one data storage
