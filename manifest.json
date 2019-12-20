@@ -1,10 +1,11 @@
    {
     "name": "Repeat last phrase",
     "version": "1.0",
+    "manifest_version": 2,
     "description": "Just like in terminal, this will map the up arrow to the last text submitted",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
-      "scripts": ["background.js"],
+      "scripts": ["js/background.js"],
       "persistent": false
     },
     "page_action": {
@@ -23,5 +24,12 @@
         "128": "images/get_started128.png"
     },
     "options_page": "options.html",
-    "manifest_version": 2
+    "commands": {
+        "toggle_feature": {
+            "suggested_key": {
+                "default": "Ctrl+Up"
+            },
+            "description": "Toggling foo"
+        }
+      }
    }
