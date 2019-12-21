@@ -3,6 +3,7 @@ Just like in terminal, this will map the up arrow to the last text submitted
 
 # Goals
 - [x] Get the up arrow + ctrl to be captured as a hotkey for toggling the event.
+- [x] Get a way to insert text into the text box that can get sent
 - [ ] Find a way to allow logging of last text written
   The goal with this is to allow some common phrases to be resaid without needing to retype, or scroll up and find the text and copy-paste.
 - [ ] Learn about interaction with multiple instances of a single page
