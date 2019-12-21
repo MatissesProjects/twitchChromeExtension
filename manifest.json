@@ -25,11 +25,11 @@
     },
     "options_page": "options.html",
     "commands": {
-        "toggle_feature": {
+        "last_command": {
             "suggested_key": {
                 "default": "Ctrl+Up"
             },
-            "description": "Toggling foo"
+            "description": "Toggling last command function call"
         }
       }
    }
